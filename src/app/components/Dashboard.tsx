@@ -103,9 +103,7 @@ export default function Dashboard() {
                         </AreaChart>
                     </ResponsiveContainer>
                 </div>
-            </div>
-
-            <div className="bg-white p-6 rounded-xl border border-slate-200">
+                <div className="bg-white p-6 rounded-xl border border-slate-200">
                 <h2 className="text-lg font-semibold text-slate-900 mb-4">Weekly Activity</h2>
                 <ResponsiveContainer width="100%" height={300}>
                     <BarChart data={activityData}>
@@ -117,6 +115,9 @@ export default function Dashboard() {
                     </BarChart>
                 </ResponsiveContainer>
             </div>
+            </div>
+
+            
 
             <div className="bg-white rounded-xl border border-slate-200 overflow-hidden">
                 <div className="p-6 border-b border-slate-200">
